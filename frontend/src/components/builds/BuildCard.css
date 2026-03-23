@@ -1,0 +1,116 @@
+.build-card {
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: border-color 0.2s;
+}
+
+.build-card:hover {
+  border-color: #e94560;
+}
+
+.build-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.build-role-icon {
+  font-size: 1.8rem;
+}
+
+.build-card-title {
+  flex: 1;
+}
+
+.build-card-title h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #eee;
+}
+
+.build-subclass {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.build-public-badge {
+  background: rgba(46, 204, 113, 0.15);
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+}
+
+.build-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.build-activity {
+  font-size: 0.8rem;
+  border: 1px solid;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+}
+
+.build-item-count {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.build-description {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.build-card-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.btn-edit {
+  flex: 1;
+  padding: 0.5rem;
+  background: none;
+  border: 1px solid #555;
+  color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.btn-edit:hover {
+  border-color: #e94560;
+  color: #e94560;
+}
+
+.btn-delete {
+  padding: 0.5rem 0.75rem;
+  background: none;
+  border: 1px solid #555;
+  color: #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.btn-delete:hover {
+  border-color: #e94560;
+  color: #e94560;
+}

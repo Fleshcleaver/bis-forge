@@ -1,0 +1,158 @@
+.gear-search {
+  background: #1a1a2e;
+  border: 1px solid #e94560;
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gear-search-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gear-search-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #e94560;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.btn-close:hover {
+  color: #e94560;
+}
+
+.search-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  background: #16213e;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #eee;
+  font-size: 0.85rem;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #e94560;
+}
+
+.btn-search {
+  padding: 0.6rem 1rem;
+  background: #e94560;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.btn-search:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hash-hint {
+  font-size: 0.78rem;
+  color: #888;
+  margin: 0;
+}
+
+.hash-hint a {
+  color: #e94560;
+}
+
+.search-error {
+  font-size: 0.85rem;
+  color: #e94560;
+  background: rgba(233, 69, 96, 0.1);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.search-loading {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem;
+  background: #16213e;
+  border-radius: 4px;
+  border: 1px solid #2a2a4a;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.result-item:hover {
+  border-color: #e94560;
+}
+
+.result-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.result-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.result-name {
+  font-size: 0.9rem;
+  color: #eee;
+}
+
+.result-meta {
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.btn-select {
+  padding: 0.3rem 0.6rem;
+  background: none;
+  border: 1px solid #e94560;
+  color: #e94560;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.btn-select:hover {
+  background: #e94560;
+  color: white;
+}

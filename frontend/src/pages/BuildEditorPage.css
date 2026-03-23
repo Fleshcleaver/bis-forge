@@ -1,0 +1,216 @@
+.editor-page {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #eee;
+  align-items: flex-start;
+}
+
+.editor-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.editor-right {
+  width: 360px;
+  position: sticky;
+  top: 1rem;
+}
+
+.editor-left h1 {
+  font-size: 1.8rem;
+  color: #e94560;
+  margin: 0;
+}
+
+.editor-card {
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.editor-card h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #e94560;
+  border-bottom: 1px solid #2a2a4a;
+  padding-bottom: 0.75rem;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-input {
+  padding: 0.65rem 0.9rem;
+  background: #16213e;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #eee;
+  font-size: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #e94560;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-group label {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.gear-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.gear-slot {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 0.75rem;
+  background: #16213e;
+  border-radius: 4px;
+  border: 1px solid #2a2a4a;
+  min-height: 48px;
+}
+
+.slot-name {
+  font-size: 0.85rem;
+  color: #aaa;
+  min-width: 110px;
+}
+
+.slot-filled {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.gear-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.gear-name {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #eee;
+}
+
+.gear-tier {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+}
+
+.tier-exotic {
+  background: rgba(240, 165, 0, 0.2);
+  color: #f0a500;
+}
+
+.tier-legendary {
+  background: rgba(155, 89, 182, 0.2);
+  color: #9b59b6;
+}
+
+.btn-remove {
+  background: none;
+  border: none;
+  color: #e94560;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.btn-add-gear {
+  background: none;
+  border: 1px dashed #444;
+  color: #aaa;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.btn-add-gear:hover {
+  border-color: #e94560;
+  color: #e94560;
+}
+
+.btn-primary {
+  padding: 0.65rem 1.25rem;
+  background-color: #e94560;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: flex-start;
+}
+
+.btn-primary:hover {
+  background-color: #c73652;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-banner {
+  background: rgba(233, 69, 96, 0.15);
+  border: 1px solid #e94560;
+  color: #e94560;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 4rem;
+  color: #aaa;
+}
