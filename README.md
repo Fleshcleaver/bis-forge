@@ -162,7 +162,7 @@ Example hashes to get started:
 |------|------|
 | Gjallarhorn | 1363886209 |
 | Ace of Spades | 347366834 |
-| Helm of Saint-14 | 3174300811 |
+| Helm of Saint-14 | 943320520 |
 
 ---
 
